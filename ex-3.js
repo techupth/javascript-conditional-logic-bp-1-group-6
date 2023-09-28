@@ -2,4 +2,8 @@
 // Ternary Operator
 let lightBulbStatus = "Off";
 
-//Start coding here
+lightBulbStatus === "On" 
+? "On" 
+: lightBulbStatus === "Off"
+? "Off"
+: console.log("Please choose the correct input (On/Off)");
