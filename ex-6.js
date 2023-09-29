@@ -2,6 +2,10 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
   // Start coding here !
+  // ตรวจสอบว่าชื่อหนังสือมีคำว่า "Beauty" หรือไม่
+  if (bookName.includes("Beauty")) {
+    favoriteBooks.push(bookName);
+  }
 }
 
 // Example case
