@@ -1,9 +1,13 @@
 //Exercise 3
 // Ternary Operator
 let lightBulbStatus = "Off";
-let status;
+
 //Start coding here
-lightBulbStatus === "On" ? 
-    status = "Light bulb is On.":
-    status = "Light bulb is Off.";
-console.log(status);
+let message;
+lightBulbStatus === "On"
+    ? message = "Light bulb is On."
+    : lightBulbStatus === "Off"
+        ? message = "Light bulb is Off."
+        : message = "Please choose the correct input (On/Off)";
+
+console.log(message);
